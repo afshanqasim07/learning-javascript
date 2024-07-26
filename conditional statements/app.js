@@ -141,7 +141,7 @@
 // let userage = +prompt("enter you age");
 
 // if (userage===10 || userage <=10){
-//     console.log("ticketprice = 50");
+//     console.log("ticket price = 50");
 // }
 // else if (userage=== 15 || userage <=15){
 //     console.log("ticket price is 100");
@@ -150,5 +150,5 @@
 //     console.log("ticket price is 150");
 // }
 // else  {
-//     console.log("ticketprice is for 300pkr.")
+//     console.log("ticket price is for 300pkr.")
 // }
