@@ -152,3 +152,6 @@
 // else  {
 //     console.log("ticket price is for 300pkr.")
 // }
+// use logical operator to find weather the age of a person lies between 10 and 20
+
+
