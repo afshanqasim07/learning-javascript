@@ -55,3 +55,95 @@ console.log("hello world ");
 //     console.log("given name is not correct");
 // }
 
+// . Write a program to check whether the given input number is
+// divisible by 3 or not by using Switch Case statements. Show a
+// message “Number is not divisible by 3” or “Number is divisible
+// by 3”.
+
+
+// let oddnum = +prompt("enter the number");
+
+// if (oddnum % 3 === 0) {
+//     console.log("Number is divisble by 3");
+// } else {
+//     console.log("number is not divisble by 3");
+// }
+
+// Write a program that takes a character(number or string) in a
+// variable & checks whether the given input is a number,
+// uppercase letter or lower case letter. (Hint: ASCII codes:-
+// A=65, Z=90, a=97, z=122)
+
+
+
+// Write a program that takes time as input from user in 24 hours
+// clock format like: 1900 = 7pm. Implement the following case
+// using if, else & else if statements
+// let time = +prompt("enter the time in format of 24 hours");
+// if (time>0 && time<=10) {
+//     console.log("GOOD MORNING");
+// } else if (time>10 && time <=14) {
+//     console.log("GOOD AFTERNON");
+// } else if (time >14 && time<=19) {
+//     console.log("good evening");
+// }
+// else {
+//     console.log("Good night");
+// }
+
+
+// Here’s a JavaScript program that creates a basic calculator using if-else statements. The program will take two numbers and an operator (+, -, *, /, %) as input and will calculate the result accordingly:
+
+// let num1 = +prompt("enter the first number");
+// let num2 = +prompt("enter the second number");
+
+// let sign = prompt("enter the operator sign what to perform");
+
+// if (sign === "+") {
+//     console.log(num1 + num2);
+// } else if (sign === "-") {
+//     console.log(num1 - num2);
+// } else if (sign === "*") {
+//     console.log(num1 * num2);
+// } else if (sign === "/") {
+//     console.log(num1 / num2);
+// } else {
+//     console.log(num1 % num2)
+// }
+
+// . Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then give
+// message “ Please enter your password”
+// ii. Check if both passwords are same. If they are same,
+// show message “Correct! The password you entered
+// matches the original password”. Show “Incorrect
+// password” otherwise;
+
+// solution
+
+// let password = "tumheqbtao";
+
+// let userpassword = prompt("enter your password");
+
+// if (userpassword===password) {
+//     console.log("Correct! The password you entered matches the orignal password");
+// } else {
+//     console.log("incorrect password ! try again");
+// }
+
+// Write a program that adds an else statement to the following
+// script to display “You are not Fahad”
+
+
+// var firstname = "fahad";
+// var username = prompt("enter your first name")
+
+
+// if (username === firstname) {
+//     console.log("Hello fahad");
+// } else {
+//     console.log("You are not Fahad");
+// }
