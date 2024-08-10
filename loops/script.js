@@ -53,10 +53,12 @@ for (i = 0 ; i<=100 ;i++){
 
 let gamenum = 20;
 
-let usernum = prompt+("Guess the game number");
-console.log(usernum);
 
-while (gamenum!== usernum){
-    let usernum = prompt+("you guess the wrong number, guess the right number");
+let usernum = prompt("enter the number");
+
+while (gamenum != usernum) {
+usernum = prompt("guess the correct game number");
 }
+
 console.log("congratulations you guess the right number");
+

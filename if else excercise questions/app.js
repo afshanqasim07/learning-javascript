@@ -147,3 +147,43 @@ console.log("hello world ");
 // } else {
 //     console.log("You are not Fahad");
 // }
+
+// Write a JavaScript program that accept two integers and display the larger. Also show if the two integers are equal.
+
+// var int1 = +prompt("enter integer 1");
+// var int2 = +prompt("ENTER integer 2");
+
+// if (int1 > int2) {
+//     console.log(int1 + "integer 1 is greater then interger2");
+// } else if (int2 > int1) {
+//     console.log(int2 + "integer 2 is greater then integer1");
+// } else if (int1 === int2) {
+//     console.log("integer1 and 2 are equal");
+// }
+
+// Write a program that takes input a number from user & state whether the number is positive, negative or zero
+
+// var num = +prompt("enter the number");
+
+// if (num > 0) {
+//     console.log("Number is positive");
+// } else if (num < 0) {
+//     console.log("number is negative");
+// } else if (num === 0) {
+//     console.log("number is equal to zero");
+// }
+
+// Ask the user what the current hour is. If the hour is between 6 and 9 a.m., tell the user, "Breakfast is served." If the hour is between 11 a.m. and 1 p.m., tell the user, "Time for lunch." If the hour is between 5 and 8 p.m., tell the user, "It's dinner time." For any other hours, tell the user, "Sorry, you'll have to wait, or go get a snack." (Hint: Store the hour in 24 hours clock format i.e. 14 for 2pm , 15 for 3pm)
+
+
+// let time = +prompt("enter the time hour");
+
+// if (time > 6 && time <= 9) {
+//     console.log("Breakfast is served.");
+// } else if (time > 11 && time <= 13) {
+//     console.log("Time for lunch.");
+// } else if (time > 18 && time <= 21) {
+//     console.log("It's dinner time.");
+// } else {
+//     console.log("Sorry, you'll have to wait, or go get a snack.");
+// }
