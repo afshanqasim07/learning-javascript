@@ -1,18 +1,29 @@
-// date and time
+// date and times
 
-let mydate = new Date();
-console.log(mydate);
-console.log(mydate.toString());
-console.log(mydate.toLocaleString());
-console.log(mydate.getFullYear());
-console.log(mydate.getDay());
-console.log(mydate.getMonth());
-console.log(mydate.toDateString());
-console.log(typeof (mydate.getHours()));
-console.log(mydate.getSeconds());
-console.log(mydate.getHours());
-console.log(mydate.getMilliseconds());
-console.log(mydate.getSeconds());
-console.log(mydate.getMonth());
-console.log(mydate.getMinutes());
-console.log(mydate.getTime());
+let newdate = new Date("7 june 2023");
+console.log(newdate.toLocaleString());
+console.log(newdate.toDateString());
+console.log(newdate.getDay());
+console.log(newdate.getMonth());
+console.log(newdate.getDate());
+console.log(newdate.getFullYear());
+
+
+// time coversations
+
+let birthdate = new Date("7 june 2005")
+let currentdate = new Date();
+
+var birthdatetime = birthdate.getTime();
+var currenttime = currentdate.getTime();
+var remainingtime =(currenttime - birthdatetime);
+console.log(remainingtime / 1000 / 60 / 60 / 24 / 365);
+
+
+
+// time
+let time = new Date();
+console.log(time.toLocaleString());
+console.log(time.getHours())
+console.log(time.getMinutes());
+console.log(time.getMilliseconds())
