@@ -27,3 +27,4 @@ console.log(time.toLocaleString());
 console.log(time.getHours())
 console.log(time.getMinutes());
 console.log(time.getMilliseconds())
+ 
