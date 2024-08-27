@@ -25,3 +25,5 @@ const hisprofile = {
 // console.log(weare);
 const us = { ...herprofile, ...hisprofile };
 console.log(us);
+
+const ()
