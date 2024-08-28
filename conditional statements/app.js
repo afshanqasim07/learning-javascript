@@ -1,4 +1,4 @@
-// conditional statement 
+// conditional statement
 
 // question 1
 
@@ -84,12 +84,12 @@
 //     console.log("Too young")
 // }
 
-// question 6 
+// question 6
 // Write a program that prompts the user for their name, and then displays a special greeting to that person if their name is the
 // same as yours. If the name entered by the user is anything other than your name, your code should not produce any  output
 
 
-// answer 6 
+// answer 6
 
 // let myname = "ayeza";
 // console.log(myname);
@@ -100,7 +100,7 @@
 // }
 
 
-// question n 7 
+// question n 7
 
 // Scenario: Write a program that determines whether a given number is positive or not?
 
@@ -155,3 +155,86 @@
 // use logical operator to find weather the age of a person lies between 10 and 20
 
 
+// if else
+let num = +prompt('enter the number ');
+
+switch (num%2 === 0 ) {
+    case 1:
+        console.log("number is divisble by 2");
+        break;
+    default:
+        console.log("number is not divisible by 2");
+        break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// by if else
+// if (num % 2 === 0) {
+//     console.log("number is divisible by 2")
+// } else {
+//     console.log("number is not divisible by 2");
+//     }
+
+// ternaity operator
+
+// (num % 2 === 0) ? console.log("number is divisible by 2") :console.log("number is not divisible by 2");
+
+// swich case
+
+// let month = 4;
+//  switch (month) {
+//     case 1:
+//         console.log('january')
+//         break;
+//     case 2:
+//         console.log('feb')
+//         break;
+//     case 3:
+//         console.log('march')
+//         break;
+//     case 4:
+//         console.log('aprail')
+//         break;
+ 
+//     default:
+//         break;
+//  }
+
+// let marks = +prompt("enter your total marks under 100");
+// console.log(marks);
+
+// if (marks >=90 && marks <= 100) {
+//     console.log("you got A+");
+// } else if (marks >=80 && marks <= 89) {
+//     console.log('you got A');
+// } else if (marks >= 70 && marks <= 79) {
+//     console.log('you got B');
+// } else if (marks >= 60 && marks <= 69) {
+//     console.log('you got C');
+// } else if (marks >= 50 && marks <= 59) {
+//     console.log('you got D');
+// } else {
+//     console.log('you failed ! Better luck next time');
+//     }
