@@ -1,13 +1,13 @@
 // async javascript
 //  settimeout
 //   setinterval
-//  promisses
 //  clearinterval
-//  clearinterval
-//
-//
-//
-//
+// set interval
+// fetch
+// axios
+// promises
+// async await
+
 
 // set time out
 // perform function one time
